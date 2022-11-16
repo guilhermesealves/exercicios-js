@@ -1,7 +1,9 @@
 function Soma(){
     let valorMetros = document.getElementById('metros').value
 
-    let valor = document.getElementById
+    let coverte = parseFloat(valorMetros) * 100
+
+    document.getElementById('total').innerHTML = coverte
 
 
 }
